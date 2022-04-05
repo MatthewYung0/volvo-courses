@@ -1,0 +1,51 @@
+Cut and paste below 5 files
+
+--main.cpp--
+------------------------------------------------------
+#include <iostream>
+#include "add.h"
+#include "multiply.h"
+
+int main()
+{
+    std::cout << add(1,2) << std::endl;
+    std::cout << multiply(3,4) << std::endl;
+    return 0;
+}
+------------------------------------------------------
+
+--add.cpp--
+------------------------------------------------------
+int add(int a, int b)
+{
+    return a+b;
+}
+------------------------------------------------------
+
+--add.h--
+------------------------------------------------------
+#ifndef ADD_H_INCLUDED
+#define ADD_H_INCLUDED
+
+int add(int a, int b);
+
+#endif // ADD_H_INCLUDED
+------------------------------------------------------
+
+--multiply.cpp--
+------------------------------------------------------
+int multiply(int a, int b)
+{
+    return a*b;
+}
+------------------------------------------------------
+
+--multiply.h--
+------------------------------------------------------
+#ifndef MULTIPLY_H_INCLUDED
+#define MULTIPLY_H_INCLUDED
+
+int multiply(int a, int b);
+
+#endif // MULTIPLY_H_INCLUDED
+------------------------------------------------------
