@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1645006973 source:c:\users\myung\onedrive - volvo cars\inf01358 - c++ introduction to programming\codefiles\assignment_5b_matthew_yung\codeblocks\assignment_5b_matthew_yung\main.cpp
+	<iostream>
+	"main.h"
+
+1645006951 c:\users\myung\onedrive - volvo cars\inf01358 - c++ introduction to programming\codefiles\assignment_5b_matthew_yung\codeblocks\assignment_5b_matthew_yung\main.h
+	<windows.h>
+

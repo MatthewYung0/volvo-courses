@@ -1,0 +1,6 @@
+EXPORTS
+    DllMain @1
+    add_friend @2
+    print_menu @3
+    run @4
+    view_friends @5
